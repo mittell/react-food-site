@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaHamburger, FaBars, FaTimes } from 'react-icons/fa';
 import './NavbarStyles.css';
 
-export const Navbar = () => {
+const Navbar = () => {
 	const [nav, setNav] = useState(false);
 
 	const handleNav = () => {
@@ -33,3 +33,5 @@ export const Navbar = () => {
 		</div>
 	);
 };
+
+export default Navbar;
