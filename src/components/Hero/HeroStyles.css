@@ -18,7 +18,7 @@
 }
 
 .hero .content {
-	border-left: 10px solid #000000;
+	border-left: 10px solid rgb(0, 0, 0);
 	padding-left: 2rem;
 	margin-bottom: 15%;
 }
