@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Source+Serif+4:opsz,wght@8..60,200;8..60,300;8..60,400;8..60,500;8..60,600;8..60,700;8..60,800;8..60,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Source+Serif+4:wght@200;300;400;500;600;700;800;900&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -29,7 +29,7 @@ ul {
 
 h1,
 h2 {
-	font-family: 'Source Serif 4', serif;
+	font-family: 'Source Serif 4', sans-serif;
 }
 
 h1 {
@@ -37,9 +37,8 @@ h1 {
 }
 
 h2 {
-	font-size: 3 rem;
+	font-size: 3rem;
 }
-
 h3 {
 	font-size: 1.4rem;
 	text-transform: uppercase;
@@ -61,7 +60,7 @@ h3 {
 	color: var(--primary-color);
 }
 
-@media and screen (max-width: 740px) {
+@media screen and (max-width: 740px) {
 	h1 {
 		font-size: 3rem;
 	}
